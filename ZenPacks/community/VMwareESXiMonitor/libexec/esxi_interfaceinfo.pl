@@ -8,6 +8,7 @@
 # You can find full information here: http://www.zenoss.com/oss
 #
 ################################################################################
+BEGIN { $ENV{PERL_LWP_SSL_VERIFY_HOSTNAME} = 0; }
 
 use strict;
 use warnings;
